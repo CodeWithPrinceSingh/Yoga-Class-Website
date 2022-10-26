@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap');
+ *{
+    margin: 0px;
+    padding: 0px;
+
+}
+.navbar-collapse {
+flex-grow: 0 !important;
+}
+.nav-item{
+    margin: 0px 20px;
+    padding: 0px 16px;
+    color: black !important;
+    font-weight: 700;
+} 
+.nav-item:hover{
+    background-color: #a7ccca;
+    border-radius: 6px;
+    
+}
+.navbar-brand img{
+background-color: #A7D7C5;
+
+}
+ 
+#header{
+    background-color: #f5f4f3;
+    
+  
+}
+.img img{
+    border-radius: 50%;
+    border: 3px solid #a7ccca;
+    margin-left: 20px;
+    
+   
+    
+}
+.img {
+    padding: 50px 0px;
+}
+
+.text {
+    padding: 0px 0px;
+    color: #6C9894;
+    margin-left: 8%;
+    margin-top: 50px;
+}
+.text .head{
+    font-size: 85px;
+    color: #6C9894;
+    line-height: 100px;
+    font-weight: bolder;
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+.text .desc{
+    line-height: 22px;
+    margin-left: 50px;
+    font-family: Raleway;
+    font-size: 21px;
+}
+.btns1{
+    margin-top: 20px;
+    margin-left: 130px;
+} 
+.text .btns1 button{
+    background-color: #6C9894;
+    padding: 8px 30px;
+    font-size: 19px;
+    border: none;
+    color: white;
+}
+   
+    
+
+    /* header end */
+ #features{
+    background-color: #6C9894;
+    color: white;
+    padding-bottom: 40px;
+ }
+    h2{
+        
+        padding-top: 40px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 700;
+        font-size: 40px;
+        
+    }
+    .col-md-12 p{
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .feature-img img{
+        border-radius: 50%;
+        margin-top: 40px;
+    }
+    .feature-text{
+        line-height: 20px;  
+    margin-top: 20px;
+    }
+    .feature-text h5{
+        font-size: 23px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    }
+    .feature-text p{
+        font-size: 15px;
+        line-height: 19px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+#count{
+  background:  #f5f4f3;
+}
+#counter-shape{
+    padding-bottom: 50px !important;
+    padding-top: 50px;
+}
+    .shape{
+        height: 220px;
+        width:220px !important;
+        margin:40px;
+        border-radius: 50%;
+       border: 3px solid #a7ccca;
+       color: #6C9894;
+       
+       
+    }
+    .shape-text{
+    margin-top: 60px;
+        
+     }
+     
+ .shape-text-head{
+    text-align: center;
+ }
+ .shape-text-p{
+    text-align: center;
+ }
+ .main-instructor{
+    margin-top: 85px;
+    margin-left: 20%;
+    color: white;
+ }
+ .experence{
+    color: #6C9894;
+    margin-top: 75px;
+ }
+
+ #register-btn{
+    padding: 10px 20px;
+    background-color: #6C9894;
+    border: none;
+ }
+ #profile{
+   background-color:#f5f4f3;
+   margin-top: 0px !important;
+ }
+
+ .profile-img{
+    display: flex;
+    justify-content: center;
+ }
+ .profile-img img{
+    border-radius: 50%;
+    border: 3px solid #6C9894;
+ }
+ /* .contect{
+    display: flex;
+    flex-direction: column;
+    align-items: center; */
+ 
+ #form{
+    
+    margin-left: 100px;
+ }
+ #input-text{
+    width: 130% !important;
+ }
+ #btn{
+    border: none;
+    color:blue;
+    font-weight: bolder;
+    position: relative;
+    left: -20px !important;
+ }
+    
+    #footer{
+        color: #6C9894;
+        background-color: #f5f4f3;
+        padding: 50px 0px;
+    }
+
+    .links a{
+        text-decoration: none;
+        color: #6C9894;
+        
+    }
+ 
+
+
+
+
+
+
+ @media only screen and (max-width: 1000px) {
+    
+    .text .head{
+       font-size: 65px;
+       line-height: 65px;
+    }
+    .text .desc{
+        font-size: 19px;
+        margin-left: 40px;
+    }
+    .text .btns1{
+        margin-left: 105px;
+        padding: 2px;
+        margin-top: 10px;
+
+    }
+    #form{
+    
+        margin-left: 40px !important;
+     }
+     #input-text{
+        width: 150% !important;
+        margin-left: 20px;
+     }
+     #btn{
+        left: 0px !important;
+       
+     }
+}
+
+
+
+
+ @media only screen and (max-width: 765px) {
+    .text{
+text-align: center;
+margin: 0px;
+    }
+    .text .head{
+        font-size: 50px;
+      line-height: 40px;
+      
+    }
+    .text .desc{
+    font-size: 15px;
+    margin: 0px;
+    line-height: 19px;
+    text-align: center;
+        
+    }
+    .text .btns1{
+        margin: 8px 0px;
+    }
+    .text .btns1 button{
+        font-size: 15px;
+        margin: 0px;
+        border: none;
+        
+       }
+
+       .main-instructor{
+        margin: 0px;
+        padding-bottom: 30px;
+        
+     }
+  #price-shape{
+    
+    margin: 30px 0px !important;
+  }
+  #form{
+    
+    margin-left: 0px !important;
+ }
+ #form{
+    
+ }
+ #input-text{
+    width: 80% !important;
+    margin-left: 20px;
+ }
+ #btn{
+    left: 0px !important;
+    margin-left: 20px;
+    background-color: #f5f4f3;
+    border: 1px solid white;
+    margin-top: 10px;
+ }
+ 
+}
